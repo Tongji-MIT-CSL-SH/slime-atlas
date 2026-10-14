@@ -1,0 +1,34 @@
+.recover-candidate{stroke:#b6b4a8;stroke-width:2;stroke-dasharray:7 8}
+.recover-base{stroke:#96978a;stroke-width:5;stroke-linecap:round}
+.recover-cut{stroke:#b37d66;stroke-width:3;stroke-dasharray:5 8}
+.recover-complete,.recover-connected{stroke:#69826d;stroke-width:7;stroke-linecap:round}
+.recover-growing{stroke:#b88c46;stroke-width:6;stroke-linecap:round}
+.recover-front{fill:#b88c46;stroke:#fff9e9;stroke-width:2}
+.recover-node{fill:#f7f4e8;stroke:#69826d;stroke-width:3}
+.recover-node.lost{stroke:#ad745f;stroke-dasharray:4 3}
+.recover-break{fill:none;stroke:#ad745f;stroke-width:4}
+.recover-cut-handle{fill:#f3e9d7;stroke:#b88c46;stroke-width:2;stroke-dasharray:4 3}
+#recovery-cut-graphic{cursor:pointer}
+#recovery-cut-graphic:focus .recover-cut-handle{stroke:#354e46;stroke-width:5}
+.recover-node-label{font-size:17px}
+.recover-ok-text{fill:#4d7059}.recover-lost-text{fill:#9a593f}
+.recover-stage{font-size:21px;font-weight:600}
+.recover-legend{font-size:16px;fill:#6e7265}
+.recover-actions{display:grid;gap:8px;margin-bottom:10px}
+.recover-actions button{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.recover-actions small{white-space:nowrap;font-variant-numeric:tabular-nums}
+.controls [id^="recovery-"]{margin-bottom:6px}
+.recover-timeline{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.recover-timeline button{padding:9px 0;min-width:0}
+.recover-timeline button[aria-pressed="true"]{background:#58705b;color:#fffaf0}
+.recover-strip{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:3px;margin:16px 0}
+.recover-strip span{padding:10px 3px;text-align:center;border:1px solid #b9bdad;border-radius:3px}
+.recover-strip small,.recover-strip strong{display:block;font-size:12px}
+.recover-strip .interrupted{background:repeating-linear-gradient(135deg,#f1e4d5,#f1e4d5 5px,#e7d3bd 5px,#e7d3bd 7px);border-color:#b98a68}
+.recover-strip .available{background:#e5eadf}
+.recover-strip .pending{border-style:dashed;color:#8d9085}
+.metric-row .recover-small{font-size:18px}
+.recover-comparison th,.recover-comparison td{font-size:13px}
+.recover-card-history{margin:20px 0;border-top:1px solid #d9d2c1}
+.recover-card-history p{margin:10px 0}
+@media(max-width:600px){.recover-strip small,.recover-strip strong{font-size:10px}.recover-comparison th,.recover-comparison td{font-size:12px}}

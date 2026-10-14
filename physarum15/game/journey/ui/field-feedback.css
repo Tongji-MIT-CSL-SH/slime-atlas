@@ -1,0 +1,54 @@
+/* Short, action-triggered feedback; every result is also readable without motion. */
+.scene .search-hit{fill:transparent!important;stroke:none!important;pointer-events:all}
+.scene .search-position-ring{fill:none!important;stroke:#a88330!important;stroke-width:3!important;pointer-events:none}
+.scene .search-link.search-latest-link{stroke:#947124;stroke-width:9}
+.field-action-dock{padding:18px;border-top:1px dashed var(--line);background:#f8f3e6}
+.field-action-dock fieldset{border:0;padding:0;margin:14px 0;min-width:0}
+.field-action-dock legend{font-size:13px;font-weight:600;margin-bottom:8px}
+.field-action-dock button{min-height:44px;white-space:normal}
+.field-action-dock .budget-strip{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.field-action-dock .action-stack{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.field-action-dock .two-choices{gap:8px}
+.field-action-dock .choice{min-height:44px}
+.search-feedback{margin:12px 0;padding:10px 12px;background:#fffaf0;border-left:3px solid var(--gold);font-size:13px;line-height:1.75}
+.search-tools{display:flex;gap:8px;flex-wrap:wrap}
+.search-tools button{flex:1;font-size:12px}
+.search-dock .result-note{padding:0;font-size:13px}
+.backup-views,.backup-targets{display:flex;gap:8px;flex-wrap:wrap}
+.backup-views button{flex:1}
+.backup-targets button{flex:1;font-size:12px;padding:8px 6px}
+.backup-views [aria-pressed=true],.backup-targets [aria-pressed=true]{background:#e4e9d9;border-color:#81906b;box-shadow:inset 0 -2px #81906b}
+.backup-options>div{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.backup-options .choice{margin:0;padding:9px}
+.backup-dock .prediction-chips{gap:6px}
+.backup-dock .prediction-chips label{font-size:12px;display:flex;align-items:center;gap:4px;padding:8px;cursor:pointer}
+.backup-dock .prediction-chips label:has(input:checked){background:#e4e9d9;border-color:#81906b}
+.backup-dock input{accent-color:var(--green)}
+.backup-dock #test{width:100%}
+.backup-comparison{border:1px solid #bfc8af;background:#edf0e3;padding:12px 16px;margin:12px 0;font-size:13px}
+.backup-comparison p{margin:8px 0}.backup-comparison small{color:var(--muted)}
+.network-edge.backup-traced-route{stroke:#587644;stroke-width:8}
+.discovery-receipt{display:flex;gap:14px;border:1px solid #b4c09e;background:#e9eddc;padding:16px;margin:12px 0 24px;border-radius:3px 10px 3px 8px}
+.receipt-mark{font-size:32px;color:var(--green);line-height:1.2}
+.discovery-receipt strong{font:500 21px var(--serif)}
+.discovery-receipt p{margin:6px 0 0;font-size:12px}.discovery-receipt a{display:inline-block;margin-top:10px;font-size:13px;min-height:32px}
+.map-reward{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:18px 22px;border:1px solid #b4c09e;background:#edf0e2;border-radius:4px;margin:20px 0}
+.map-reward span,.map-reward a{font-size:13px}.map-reward a{margin-left:auto}
+.map-slots a.map-just-lit{outline:3px solid var(--gold);outline-offset:3px;animation:map-lit 900ms ease-out 1}
+.chapter.chapter-fresh{border-color:#9fad83}
+.feedback-explore .search-latest-link{animation:trace-mark 650ms ease-out 1}
+.feedback-cut .backup-traced-route{animation:trace-mark 650ms ease-out 1}
+.feedback-cut .cut-mark{animation:trace-mark 400ms ease-out 1}
+.first-discovery .discovery-card{animation:card-arrive 500ms ease-out 1}
+@keyframes trace-mark{from{stroke-opacity:.3}to{stroke-opacity:1}}
+@keyframes card-arrive{from{opacity:.35;translate:0 10px}to{opacity:1;translate:0 0}}
+@keyframes map-lit{from{box-shadow:0 0 0 12px #b6974250}to{box-shadow:0 0 0 0 #b6974200}}
+.reduced-motion .feedback-explore *,.reduced-motion .feedback-cut *,.reduced-motion .first-discovery *,.reduced-motion .map-just-lit{animation:none!important}
+@media(prefers-reduced-motion:reduce){.feedback-explore *,.feedback-cut *,.first-discovery *,.map-just-lit{animation:none!important}}
+@media(max-width:600px){
+ .scene .search-board-art text,.scene .backup-workshop-art text{font-size:32px}
+ .scene .search-board-art .search-signal{font-size:26px}
+ .scene .backup-workshop-art .backup-candidate text{font-size:30px}
+ .scene .search-board-note,.scene .backup-workshop-art .backup-legend{display:none}
+}
+@media(max-width:600px){.field-action-dock{padding:12px}.field-action-dock .primary,.field-action-dock .secondary{padding:10px;font-size:12px}.backup-options .choice strong{font-size:12px}.discovery-receipt{padding:12px;gap:10px}.discovery-receipt strong{font-size:18px}.map-reward{padding:14px}.map-reward a{margin-left:0}}

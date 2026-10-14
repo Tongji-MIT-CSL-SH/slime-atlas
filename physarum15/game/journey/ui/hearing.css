@@ -1,0 +1,100 @@
+/* V0.9: a small paper meeting, not a second scoring model. */
+.hearing-shell{--meeting-line:#bfb699}
+.hearing-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:18px 0 24px}
+.hearing-steps button{min-height:54px;display:flex;align-items:center;justify-content:center;gap:10px;background:#faf7ed;border:1px solid var(--line);border-radius:3px 9px 4px 6px;font-size:14px}
+.hearing-steps button span{display:grid;place-items:center;width:27px;height:27px;border:1px solid #bfb699;border-radius:50%;font:16px var(--serif)}
+.hearing-steps [aria-current]{background:#e5e9d8;border-color:var(--green);box-shadow:inset 0 -3px #829273}
+.hearing-steps [aria-current] span{background:var(--green);color:var(--sheet)}
+.hearing-stage{background:#fcf9f1;border:1px solid var(--meeting-line);padding:26px;border-radius:5px 14px 4px 11px;box-shadow:4px 5px 0 #b8aa881c}
+.hearing-stage-heading{margin-bottom:22px}
+.hearing-stage-heading .eyebrow{margin-bottom:6px}
+.hearing-stage-heading h2{font:500 clamp(23px,2.2vw,30px)/1.5 var(--serif);margin:0;scroll-margin-top:18px}
+.hearing-stage-heading h2:focus{outline:2px dashed #b5a36e;outline-offset:5px}
+.hearing-listen{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:28px;align-items:start}
+.hearing-question .conversation-tabs button,.hearing-shell .resident-buttons button{background:#f5efdf;border:1px solid #bfb699;padding:8px 10px;border-radius:3px;min-height:44px}
+.hearing-shell [aria-pressed=true]{border-color:#738161!important;background:#e6e9d5!important}
+.hearing-shell .resident-buttons{display:flex;flex-direction:row;flex-wrap:wrap;gap:7px}
+.hearing-question .conversation-tabs{gap:6px}
+.hearing-voice{display:flex;align-items:start;gap:13px;padding:18px 0;border-bottom:1px dashed var(--meeting-line)}
+.hearing-voice p{font-size:12px;margin:0 0 5px;color:var(--muted)}
+.hearing-voice h3{font:500 25px/1.6 var(--serif);margin:0}
+.hearing-question>p:not(.eyebrow){font-size:13px;color:var(--muted)}
+.hearing-choice{border:0;background:transparent;padding:12px 0 0}
+.hearing-choice fieldset{margin-bottom:0}
+.hearing-town{align-self:center}
+.hearing-check{display:grid;grid-template-columns:minmax(260px,.85fr) minmax(0,1.5fr);gap:24px;align-items:start}
+.hearing-tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.hearing-tool{text-align:center;border:1px solid var(--meeting-line);background:#f8f1df;border-radius:4px 8px 3px 9px;padding:12px 7px;box-shadow:2px 3px 0 #c7ba961f}
+.hearing-tool.used{border-color:var(--green);box-shadow:inset 0 3px #8b9a74}
+.hearing-tool small{font-size:9px;color:var(--muted);letter-spacing:1px}
+.hearing-tool h3{font:500 27px var(--serif);margin:12px 0}
+.hearing-tool button,.hearing-tool a{display:block;width:100%;font-size:12px;background:#fffaf0;border:1px solid #beb293;border-radius:3px;min-height:44px;padding:9px 2px;text-decoration:none}
+.hearing-toolbox>details{margin-top:24px;border-top:1px dashed var(--meeting-line);padding-top:12px;font-size:13px}
+.hearing-toolbox summary{cursor:pointer;min-height:44px;padding:10px 0}
+.hearing-findings{min-width:0}
+.hearing-findings .town-conversation{padding:18px;margin-bottom:14px}
+.hearing-findings .town-conversation .eyebrow{display:none}
+.hearing-findings #town-reply{font-size:15px}
+.hearing-findings #town-route{font-size:13px}
+.hearing-findings #town-route summary{min-height:44px;padding:10px 0;cursor:pointer}
+.hearing-findings #town-route svg{max-height:300px}
+.hearing-findings .council-closed text{fill:var(--rust);font-size:16px;paint-order:stroke;stroke:var(--sheet);stroke-width:4px}
+.hearing-reply{display:grid;grid-template-columns:minmax(0,.65fr) minmax(0,1.35fr);gap:28px;align-items:start}
+.hearing-prompt{padding:20px;background:#efe8d4;border-radius:3px 13px 5px 9px;border:1px solid #c8bfa2}
+.hearing-prompt h3{font:500 23px/1.7 var(--serif);margin:0 0 12px}
+.hearing-prompt>p:not(.eyebrow){font-size:13px}
+.hearing-prompt button{margin:5px 0;width:100%}
+.hearing-responses{padding:0;border:0;background:transparent}
+.hearing-answer{border:1px solid var(--line);background:#faf6eb;border-radius:4px;margin-bottom:12px}
+.hearing-answer>summary{display:flex;justify-content:space-between;gap:12px;cursor:pointer;list-style:none;padding:16px;font-weight:600;min-height:52px}
+.hearing-answer>summary:before{content:"＋";color:var(--green)}
+.hearing-answer[open]>summary:before{content:"−"}
+.hearing-answer>summary span{margin-right:auto}
+.hearing-answer>summary small{font-weight:400;color:var(--muted);white-space:nowrap}
+.hearing-answer fieldset{padding:0 16px 12px;margin:0}
+.hearing-answer legend{font-size:13px;color:var(--muted);padding-top:5px}
+.hearing-letter{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,.8fr);gap:28px;align-items:start}
+.hearing-paper{position:relative;min-width:0;border:1px solid #c6b996;background:#fffcf4}
+.hearing-paper .council-letter{padding:24px;margin:0}
+.hearing-stamp{display:inline-block;margin:18px 24px 0;border:1px solid #8d9773;color:#576748;padding:4px 9px;font-size:11px;transform:rotate(-2deg)}
+.hearing-delivery h3{font:500 23px var(--serif);margin:0 0 16px}
+.hearing-checklist{list-style:none;padding:0;font-size:13px}
+.hearing-checklist li{padding:12px 0;border-bottom:1px dashed var(--line)}
+.hearing-checklist li>span{display:inline-block;margin-right:8px;color:var(--green)}
+.hearing-checklist li.pending{color:#8a593d}
+.hearing-checklist a,.hearing-checklist .text-button{display:block;margin:6px 0 0 22px;font-size:13px}
+.hearing-turns{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:20px 0}
+.hearing-outcome{padding:15px 20px;margin-top:18px}
+.hearing-outcome>p{font-size:13px;margin:0}
+.hearing-shell .council-check{font-size:13px}
+@media(max-width:900px){
+ .hearing-check{grid-template-columns:1fr}
+ .hearing-toolbox{display:grid;grid-template-columns:1fr 1fr;gap:0 24px;align-items:start}
+ .hearing-toolbox>.eyebrow{grid-column:1/-1}
+ .hearing-tools{grid-row:2/4}
+ .hearing-toolbox>details{margin-top:0}
+ .hearing-reply{grid-template-columns:1fr}
+ .hearing-prompt{padding:16px}
+ .hearing-prompt button{width:auto;margin:4px 8px 4px 0}
+}
+@media(max-width:760px){
+ .hearing-stage{padding:18px 14px}
+ .hearing-steps{gap:5px;margin-bottom:16px}
+ .hearing-steps button{flex-direction:column;gap:5px;padding:10px 2px;font-size:12px;min-height:72px}
+ .hearing-steps button span{width:24px;height:24px;font-size:14px}
+ .hearing-listen,.hearing-letter{grid-template-columns:1fr;gap:18px}
+ .hearing-town{max-width:100%}
+ .hearing-stage-heading h2{font-size:23px}
+ .hearing-question .conversation-tabs,.hearing-findings .conversation-tabs{display:flex;flex-wrap:wrap}
+ .hearing-findings .conversation-tabs button{font-size:12px;padding:8px;flex:1}
+ .hearing-toolbox{display:block}
+ .hearing-toolbox>details{margin-top:12px}
+ .hearing-findings .town-conversation{padding:12px}
+ .hearing-findings .town-conversation h3{font-size:16px}
+ .hearing-answer>summary{padding:14px 10px;font-size:14px;gap:7px}
+ .hearing-answer fieldset{padding:0 10px 12px}
+ .hearing-paper .council-letter{padding:18px}
+ .hearing-turns>.primary{flex:1}
+ .hearing-turns .microcopy{display:none}
+ .hearing-outcome{padding:14px}
+}

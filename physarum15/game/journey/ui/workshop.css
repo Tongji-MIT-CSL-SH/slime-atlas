@@ -1,0 +1,48 @@
+/* Native SVG/HTML treatment: no external art, fonts, libraries or network calls. */
+.fieldbook { margin: 3rem 0; }
+.fieldbook-grid { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem; }
+.fieldbook-note { min-width:0;padding:1.4rem;background:#faf5e9;border:1px solid #c7bea7;border-radius:3px 11px 4px 8px;box-shadow:3px 4px 0 #c6b99822; }
+.fieldbook-note:nth-child(2) { border-radius:9px 3px 8px 3px; }
+.fieldbook-note p { line-height:1.7; }
+.fieldbook-note svg { width:100%;height:auto;display:block; }
+.fieldbook-note details { margin:.75rem 0; }
+.fieldbook-note details[open] { grid-column:1/-1; }
+.field-tools { padding:1rem;border:1px dashed #a49b82;background:#f7f0de; }
+.field-tools summary { cursor:pointer;font-weight:700;margin-bottom:.8rem; }
+.tool-cards { display:grid;gap:.8rem; }
+.tool-card { padding:1rem;border:1px solid #b6ac92;border-radius:4px 10px 3px 8px;background:#fffcf3; }
+.tool-card h3 { margin:.2rem 0;font-size:1.3rem; }
+.tool-card p { font-size:.9rem;line-height:1.65; }
+.tool-card.used { border-color:#577258;box-shadow:inset 4px 0 #758869; }
+.tool-card button { white-space:normal;text-align:left;width:100%; }
+.town-conversation { padding:1.5rem;margin:0 0 1.5rem;background:#eee9da;border:1px solid #b6ac92;border-radius:14px 4px 12px 3px; }
+.town-conversation h3 { line-height:1.6;font-size:1.12rem; }
+.town-conversation p { line-height:1.8; }
+.town-conversation svg { display:block;width:100%;height:auto; }
+.conversation-tabs { display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem; }
+.conversation-tabs button,.town-conversation .resident-buttons button { min-height:44px; }
+.conversation-tabs [aria-pressed=true] { background:#dfd5b9;border-color:#867137; }
+.ledger-pair { display:grid;grid-template-columns:1fr 1fr;gap:1rem; }
+.ledger-pair p { padding:1rem;border:1px solid #beb59e;background:#fffaf0; }
+#town-attach,#export-proposal { margin:.8rem 0;min-height:44px;white-space:normal; }
+.backup-candidate { cursor:pointer; }
+.backup-candidate path { fill:none;stroke:#96815b;stroke-width:14;stroke-opacity:.15;stroke-dasharray:12 8; }
+.backup-candidate:hover path,.backup-candidate:focus path,.backup-candidate.selected path { stroke-opacity:.6;stroke-width:11; }
+.backup-candidate text { font-size:16px;fill:#594b31;paint-order:stroke;stroke:#f5f0e5;stroke-width:5px; }
+.backup-candidate:focus { outline:none; }
+.backup-candidate:focus path { stroke:#3c6754;stroke-dasharray:4 4; }
+.prediction-chips { display:flex;flex-wrap:wrap;gap:.5rem; }
+.prediction-chips label { padding:.65rem;background:#f5efdf;border:1px solid #c6baa0;border-radius:5px;min-height:44px; }
+#search-challenges { margin-top:1rem; }
+#search-challenges button { display:block;width:100%;margin:.5rem 0; }
+.search-point.frontier circle { transition:stroke-width .18s; }
+.search-point.frontier:hover circle,.search-point.frontier:focus circle { stroke-width:4; }
+.reduced-motion * { scroll-behavior:auto!important;transition:none!important; }
+@media(max-width:760px){
+ .fieldbook-grid { grid-template-columns:1fr; }
+ .town-conversation { padding:1rem; }
+ .conversation-tabs { display:grid;grid-template-columns:1fr; }
+ .ledger-pair { gap:.5rem; }
+ .ledger-pair p { padding:.7rem; }
+ .tool-card button { font-size:.9rem; }
+}

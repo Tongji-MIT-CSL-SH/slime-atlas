@@ -1,0 +1,30 @@
+/* Fixed teaching graph: hand-drawn paths, computed widths, opaque paper. */
+.desk-hit{fill:none;stroke:transparent;stroke-width:28;pointer-events:stroke}
+.desk-edge{fill:none;stroke:#c6bfa7;stroke-width:3;stroke-dasharray:5 8;pointer-events:none}
+.desk-edge.built{stroke:#b49a4d;stroke-width:7;stroke-dasharray:none}
+.desk-edge.route{stroke:#b87d36;stroke-width:10}
+.desk-edge.marked{stroke:#68815c}
+.scene svg [data-action=connect-edge],.scene svg [data-action=flow-inspect]{cursor:pointer}
+.scene svg [role=button]:focus-visible{outline:2px dashed #536b50;outline-offset:4px}
+.scene svg .desk-heading{font-size:21px;font-family:var(--serif)}
+.scene svg .desk-caption{font-size:16px;fill:var(--muted)}
+.scene svg .desk-edge-label,.scene svg .flow-value{font-size:18px;paint-order:stroke;stroke:var(--sheet);stroke-width:6;stroke-linejoin:round}
+.desk-edge-options{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.desk-edge-options .choice{flex:1;min-width:54px;margin:0;padding:10px 8px;align-items:center}
+.desk-edge-options .secondary{padding:10px 12px;flex:1;min-width:64px}
+.desk-edge-options button[aria-pressed=true]{background:#e8ecdf;border-color:#81936d}
+.flow-tube{fill:none;stroke:#b7a45f;stroke-linecap:round;pointer-events:none}
+.flow-tube.selected{stroke:#73885f}
+.flow-ghost{fill:none;stroke:#999d9250;stroke-dasharray:7 7;pointer-events:none}
+.flow-prediction{fill:none;stroke:#b4885140;stroke-dasharray:3 8;pointer-events:none}
+.flow-arrow{fill:#52684b;stroke:var(--sheet);stroke-width:1;pointer-events:none}
+.timeline-label{display:block;font-size:12px;margin:15px 0 4px}
+.flow-timeline{width:100%;height:44px;accent-color:var(--green)}
+.flow-comparison{overflow-x:auto}
+.flow-comparison th{white-space:nowrap}
+.prediction-note{padding:12px 15px;background:#efe9d8;border-left:3px solid var(--gold);font-size:13px}
+.flow-rule{font-size:12px;line-height:1.8;margin-top:18px;color:var(--muted)}
+.flow-rule summary{cursor:pointer;padding:10px 0}
+.desk-feedback{border-left:3px solid #93a177;background:#edf0e4;padding:10px 12px;font-size:13px;line-height:1.8}
+.controls #flow-apply{width:100%;margin-bottom:18px;border-color:#869777;background:#edf0e4}
+@media(max-width:760px){.flow-rule,.prediction-note,.timeline-label{font-size:14px}.flow-comparison table{font-size:12px}.desk-edge-options .choice{min-height:46px}}

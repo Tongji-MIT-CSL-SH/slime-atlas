@@ -1,0 +1,19 @@
+.detour-path{fill:none;stroke:#bcb99f;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.detour-path.planned{stroke:#b79d54;stroke-width:6;stroke-dasharray:8 7}
+.detour-path.walked{stroke:#6f8758;stroke-width:8}
+.detour-path.closed{stroke:#a39b8c;stroke-width:3;stroke-dasharray:5 8}
+.detour-patch{stroke:#b7b198;stroke-width:1.5}
+.detour-patch.empty{fill:#faf7ed;stroke-dasharray:4 4}
+.detour-patch.resistance{fill:url(#detour-hatch);stroke:#b29c59}
+.detour-patch.wall{fill:#d8d4c8;stroke:#716e64}
+.detour-cross{fill:none;stroke:#8f594a;stroke-width:3}
+.scene svg .detour-patch-label{font-size:17px;paint-order:stroke;stroke:#faf7ed99;stroke-width:2}
+.scene svg .detour-small{font-size:13px;fill:var(--muted)}
+.scene svg [data-action=detour-place]{cursor:pointer}
+.scene svg [data-action=detour-place]:hover .detour-patch{stroke-width:3}
+.detour-stop{fill:none;stroke:#aa6850;stroke-width:2.5;stroke-dasharray:5 3}
+.detour-stop.arrived{stroke:#6f8758;stroke-dasharray:none}
+.detour-stamps{display:flex;gap:8px;flex-wrap:wrap;font-size:11px;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:18px;color:var(--green)}
+.controls #detour-test{width:100%;background:#edf0e4;border-color:#869777}
+.detour-placement{padding:10px 12px;border:1px dashed var(--line);font-size:12px;background:#f7f3e8}
+@media(max-width:760px){.detour-stamps{font-size:13px}}

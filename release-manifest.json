@@ -1,0 +1,476 @@
+{
+  "version": "V0.11",
+  "scope": "game-runtime-only",
+  "files": [
+    {
+      "file": "physarum15/game/journey/index.html",
+      "bytes": 2636,
+      "sha256": "c1ab9e6a540d42162308622fe89a4639dc7f2f1bdf2a8cfe4ee3997bad304fc9"
+    },
+    {
+      "file": "physarum15/game/journey/journey.js",
+      "bytes": 28516,
+      "sha256": "111ef68693302511c16f8b5f14c31207e658be9aac09e3fe2316afacb8c78c29"
+    },
+    {
+      "file": "physarum15/game/journey/journey.css",
+      "bytes": 26422,
+      "sha256": "22f8219dfdff203eeef7606cd8964a0540b81dd337cef0d9f786bae3e9eea765"
+    },
+    {
+      "file": "physarum15/game/journey/content/catalog.js",
+      "bytes": 13747,
+      "sha256": "dec2c1cdab2361844756d1579f7ae89e1c04df5b66a4066e9a2fb0de2298a9fb"
+    },
+    {
+      "file": "physarum15/game/journey/content/illustrations.js",
+      "bytes": 1628,
+      "sha256": "e04cb966ca1cdfa2e40c65e3df8bd10988a2262e090f25d75707e96a55076a5b"
+    },
+    {
+      "file": "physarum15/game/journey/content/scenes.js",
+      "bytes": 4104,
+      "sha256": "6ea73bc6bae90b01cf065dbffac7f3073eb0528ffa9b3de074fd1ef5d62265ea"
+    },
+    {
+      "file": "physarum15/game/journey/core/connect.js",
+      "bytes": 2918,
+      "sha256": "da8a173cc9a6525c5c76baf8afcc0b047da26004e14402cf515e6aa48010f16d"
+    },
+    {
+      "file": "physarum15/game/journey/core/council.js",
+      "bytes": 9535,
+      "sha256": "e7ac98940fea227409f21d7593bd8cbee108cc893b08876f057c3d2f754c3743"
+    },
+    {
+      "file": "physarum15/game/journey/core/detour.js",
+      "bytes": 5203,
+      "sha256": "9e5f36b4d87cc1be3da96cb8d35a5c72778074c22a44d0d380e03799381fc0b8"
+    },
+    {
+      "file": "physarum15/game/journey/core/feedback.js",
+      "bytes": 1598,
+      "sha256": "349735b93f78f5aa8e759503fc319d4485bfa5c9957d9d63f51fbaf0a0bd4302"
+    },
+    {
+      "file": "physarum15/game/journey/core/fieldbook.js",
+      "bytes": 2001,
+      "sha256": "87eef81c16821c27bd276b171ec62f8dce9be26dba868eb558354db77b9f9321"
+    },
+    {
+      "file": "physarum15/game/journey/core/flow.js",
+      "bytes": 5691,
+      "sha256": "435cbbaa0d0e219c99bc4b437decc290a883c530935f616bcd8313631f4fd0bb"
+    },
+    {
+      "file": "physarum15/game/journey/core/graph.js",
+      "bytes": 2808,
+      "sha256": "6123f9b85aaf799bc2c6936ce8fb4e856037ea9482b9783e6ca86fe1d462850a"
+    },
+    {
+      "file": "physarum15/game/journey/core/hearing.js",
+      "bytes": 2056,
+      "sha256": "04b41c58cd5b309ba8124fe0c8eaed623201173aae93f34e516733f16fcf8439"
+    },
+    {
+      "file": "physarum15/game/journey/core/meet.js",
+      "bytes": 1245,
+      "sha256": "c55e2001bd63a27557c33840ea2c5ca006ff3977bfc6cb07223bad1410468bf7"
+    },
+    {
+      "file": "physarum15/game/journey/core/onboarding.js",
+      "bytes": 1665,
+      "sha256": "f20767dbbfc0dc0fbe8106d8323ce6a4ed5b213cd8c8c86908dda117977068de"
+    },
+    {
+      "file": "physarum15/game/journey/core/progress.js",
+      "bytes": 6269,
+      "sha256": "6a25af81f81b930c002bc7124dce45dae0db0eb7fe99845a52ebc7a48ee3c402"
+    },
+    {
+      "file": "physarum15/game/journey/core/reach.js",
+      "bytes": 4383,
+      "sha256": "e0a63281be8dfc1e29f7e1d310b01bdd2d50be14dabcb2b6e24404dfc2d5cf75"
+    },
+    {
+      "file": "physarum15/game/journey/core/recovery.js",
+      "bytes": 6548,
+      "sha256": "48814e70e6f27bd8daade90eb5a16023d00177d9703cd28d06f34fced48eca76"
+    },
+    {
+      "file": "physarum15/game/journey/core/residents.js",
+      "bytes": 3497,
+      "sha256": "557403e779edbdb93525adf252ae8bd4fc7b455994cf5f770425089d0a674934"
+    },
+    {
+      "file": "physarum15/game/journey/core/search-boards.js",
+      "bytes": 1980,
+      "sha256": "7779e98690b4418c179d2c8c9e05caa05d2d5be7fb2a042fe59c939b239780be"
+    },
+    {
+      "file": "physarum15/game/journey/core/search.js",
+      "bytes": 3681,
+      "sha256": "05d0f85940b541ded8b28296665e387e9cd3bb221ed2cf3547c46f15e7884699"
+    },
+    {
+      "file": "physarum15/game/journey/core/sensing.js",
+      "bytes": 1763,
+      "sha256": "bb5359c9ebe9c57f8bad63e5cab6e770019e3deb81fe8596e4c122ade3b49444"
+    },
+    {
+      "file": "physarum15/game/journey/core/session.js",
+      "bytes": 9431,
+      "sha256": "00c23a5efe1723f07f2f1dc613b8874009011858defeefcccfee2c2efd37f996"
+    },
+    {
+      "file": "physarum15/game/journey/core/translate.js",
+      "bytes": 4123,
+      "sha256": "291cc4ef282a92ae2a5b9116aedfd17eb2a61d123df879f221d73d8f417d309d"
+    },
+    {
+      "file": "physarum15/game/journey/core/workshop.js",
+      "bytes": 3659,
+      "sha256": "fe1dc85d2261bf4d60f3a000be20e1510da3fda0526ca2e8cc4baaf2dc7f0e24"
+    },
+    {
+      "file": "physarum15/game/journey/ui/art.js",
+      "bytes": 11566,
+      "sha256": "604071cde57d94c8f57ec75fc918246b0b6d714362184c9b8398f99a048344b1"
+    },
+    {
+      "file": "physarum15/game/journey/ui/backup-workshop.js",
+      "bytes": 6572,
+      "sha256": "4f50b3e43fe7799517436465cc0953e7f2f6bc7a535ec3179027678fc93dcee5"
+    },
+    {
+      "file": "physarum15/game/journey/ui/beginnings.js",
+      "bytes": 12394,
+      "sha256": "33629b67fc91fe533b688b5ec6a89ee0bbab04a3168bea7caac0771c18017a2f"
+    },
+    {
+      "file": "physarum15/game/journey/ui/city-chapter-art.js",
+      "bytes": 2442,
+      "sha256": "f7103206f81878079d7f381e8a135f8a61509a399be08b50156df5a6f3b0c884"
+    },
+    {
+      "file": "physarum15/game/journey/ui/city-chapter.css",
+      "bytes": 2431,
+      "sha256": "af089bade7a2ceb88919d3107023df1a48c6b1a71fc00769a7fb522daf601fde"
+    },
+    {
+      "file": "physarum15/game/journey/ui/connect-view.js",
+      "bytes": 5020,
+      "sha256": "e184aee63d0b563252c1223cca3dbcf9dce47b4a6edcdfa42e0824a7966763c1"
+    },
+    {
+      "file": "physarum15/game/journey/ui/council-view.js",
+      "bytes": 12182,
+      "sha256": "99cbd667b87406533ca72b1a0af47a6dd49e714b2c82aec2604e4cc8bf8076c5"
+    },
+    {
+      "file": "physarum15/game/journey/ui/council.css",
+      "bytes": 3842,
+      "sha256": "918e14c01d9163cc20a9c75c81398c6c442c43fb9b44c4ce8364426760d1dc5b"
+    },
+    {
+      "file": "physarum15/game/journey/ui/detour-art.js",
+      "bytes": 2884,
+      "sha256": "864668054257539a6fc7f499a485c7a5f293c33e28fef095a786380af521afee"
+    },
+    {
+      "file": "physarum15/game/journey/ui/detour-view.js",
+      "bytes": 6068,
+      "sha256": "29f6264fd48ec6e1a1558f6df7b064f54ed8efdfe6442e82330dbeafa9300071"
+    },
+    {
+      "file": "physarum15/game/journey/ui/detour.css",
+      "bytes": 1377,
+      "sha256": "c8bd73c25b2c624085399326c16cadd027a9874a127a02484efd3231b6c4a415"
+    },
+    {
+      "file": "physarum15/game/journey/ui/feedback-view.js",
+      "bytes": 1548,
+      "sha256": "8f7369047e6ae89acbe6d05b829a5d959eb36806165825dc0df66945991a71b1"
+    },
+    {
+      "file": "physarum15/game/journey/ui/field-feedback.css",
+      "bytes": 4527,
+      "sha256": "67c6a065450a69248dd98750c1282ae064f4ab6b3e07a90955e7f2a00272aba6"
+    },
+    {
+      "file": "physarum15/game/journey/ui/flow-art.js",
+      "bytes": 1892,
+      "sha256": "afe4fa01cb105e8c3f842ccccdeefd48a673142cfb85d6bcf24468d92ada8c91"
+    },
+    {
+      "file": "physarum15/game/journey/ui/flow-view.js",
+      "bytes": 6532,
+      "sha256": "75013d7a26a6c295efbb284ae13cbaa0a80956b5987048db987c4ce81f5206b4"
+    },
+    {
+      "file": "physarum15/game/journey/ui/hearing-view.js",
+      "bytes": 8402,
+      "sha256": "749e7c02701a18a4989142d8ac9bfee97ac4d91958ebca6b0bcb63cbf9bf8824"
+    },
+    {
+      "file": "physarum15/game/journey/ui/hearing.css",
+      "bytes": 7227,
+      "sha256": "a9d6d67f6bde800568113632926f6412a5a6d717b68caf452492e86198308508"
+    },
+    {
+      "file": "physarum15/game/journey/ui/illustrations.css",
+      "bytes": 5167,
+      "sha256": "cd511d32326766f14af2fda4a50a2c5e14fc0e7ca3e03912c1829c4e9796cf70"
+    },
+    {
+      "file": "physarum15/game/journey/ui/illustrations.js",
+      "bytes": 1128,
+      "sha256": "7d6cc12b978fbc5e4d5c4f43b338d5a0daba6ab2c76bb7a8fbc7e76bea1a10d9"
+    },
+    {
+      "file": "physarum15/game/journey/ui/network-art.js",
+      "bytes": 1694,
+      "sha256": "1f85261ae834971dd3ef0721c19d3b056914de629b106bb6594902e08700e56b"
+    },
+    {
+      "file": "physarum15/game/journey/ui/network.css",
+      "bytes": 2339,
+      "sha256": "71c2e07325fe5b6ec9dd7020549bc98cd2c250319484097cda0d229c93246922"
+    },
+    {
+      "file": "physarum15/game/journey/ui/onboarding-view.js",
+      "bytes": 5753,
+      "sha256": "adc454376bfdf330df5fe97e007a75199be1cec9a1784e4c4a1abc229bf96f45"
+    },
+    {
+      "file": "physarum15/game/journey/ui/onboarding.css",
+      "bytes": 3661,
+      "sha256": "9e0dc3a6d862b7de25bfaa32b279c98cf385564c50ad92ee55c1feafbfab4720"
+    },
+    {
+      "file": "physarum15/game/journey/ui/reach-view.js",
+      "bytes": 4415,
+      "sha256": "f2765a09def85c147a80bf5b5ceb4a783cf359f767835b51abcc5b0f845418f8"
+    },
+    {
+      "file": "physarum15/game/journey/ui/recovery-art.js",
+      "bytes": 2586,
+      "sha256": "d58d358abf4ac92ece0dd5de25814dc61a97b737a7ccb493db0882ff9a5afa4b"
+    },
+    {
+      "file": "physarum15/game/journey/ui/recovery-view.js",
+      "bytes": 6979,
+      "sha256": "6bb308ffe84668994363ad553975b37b6b5b8b5714bc804eff336066ea1819a0"
+    },
+    {
+      "file": "physarum15/game/journey/ui/recovery.css",
+      "bytes": 2345,
+      "sha256": "bc2a6e4ffc18e787ddd4008c64c8ee268cad24b4a7c1a6cbdbce4b0161c69ea6"
+    },
+    {
+      "file": "physarum15/game/journey/ui/residents-view.js",
+      "bytes": 8876,
+      "sha256": "6225c956a7adbd700c8792fea8f1a9b8a4c51d1e3fc73f00852c012d302ae5f1"
+    },
+    {
+      "file": "physarum15/game/journey/ui/residents.css",
+      "bytes": 5003,
+      "sha256": "551a341b6611a29f31a7094d2b064ddb5b8085ea4235484c8466d2c0729ec51e"
+    },
+    {
+      "file": "physarum15/game/journey/ui/search-maze.js",
+      "bytes": 2580,
+      "sha256": "6d6ba1b89f15bc188d210b7feb6226c7734506b87e1891bcee3b97855d872aaf"
+    },
+    {
+      "file": "physarum15/game/journey/ui/translate-view.js",
+      "bytes": 3496,
+      "sha256": "697075678e3ae414a754afac67b1c06c87e3bfaa9dabc70950bd3dc803ca72ac"
+    },
+    {
+      "file": "physarum15/game/journey/ui/views.js",
+      "bytes": 19781,
+      "sha256": "b5e4c3d4caa870a2fac4a26a1ed87473aede8951746d67b22de9c62491e09284"
+    },
+    {
+      "file": "physarum15/game/journey/ui/workshop-view.js",
+      "bytes": 5639,
+      "sha256": "30b53bbaa9207dfaea95f3b74ed514e5907dba6c0de4354103e5202d21c79563"
+    },
+    {
+      "file": "physarum15/game/journey/ui/workshop.css",
+      "bytes": 3261,
+      "sha256": "2d0bcf07708e632cee306b91839247b3328a5d637f3db3b091c1e42fc037d0b3"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-001-384.webp",
+      "bytes": 23826,
+      "sha256": "8992fda2340c074771ae4fe3fc679d76a2c07f0ba7e6145499867d9dbb72691b"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-001-768.webp",
+      "bytes": 95822,
+      "sha256": "6d6120278ef08b0ff0e326419e92c364fca8fc15474fed446fc51d949adc5015"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-002-384.webp",
+      "bytes": 17144,
+      "sha256": "29aec106d4b48021fecc816c51a80985c1002b5c6e31d5dfccb1517c8d0984e2"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-002-768.webp",
+      "bytes": 74554,
+      "sha256": "22a5d3f2c7f8ebc891d8c61ae1f02090ee39ac4c8c6832453d7cec8cb2e41ccd"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-003-384.webp",
+      "bytes": 21036,
+      "sha256": "463914b47c4b7de61eeb8e1f31094a2774b8a01dbcc86bf14c609a6cb12d7fad"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-003-768.webp",
+      "bytes": 79904,
+      "sha256": "b779970a8b60ad1d268a1f791978e28d230cb4e3aa76bf102f1e3f0b189afbdf"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-004-384.webp",
+      "bytes": 9894,
+      "sha256": "5f60a2aece1f1b4a918eb6a04bd3fc6be38511a7a713ee46f7ef0f875367c024"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-004-768.webp",
+      "bytes": 38024,
+      "sha256": "a14558a00be7690c5e00c992d9bbf1499d6b205fc051dba50a000874006c143c"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-005-384.webp",
+      "bytes": 10204,
+      "sha256": "3359d27fd783fb6cddeb6968aa40b407bd679daefd3d5251a6b60c51537ba919"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-005-768.webp",
+      "bytes": 42362,
+      "sha256": "b334a51f7ec6af6ff5e37f4a9f22692c1bd8972ab82f45ea68b8adcd90533fff"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-006-384.webp",
+      "bytes": 10080,
+      "sha256": "cfe0b31529f79b8d6cf077996f28da7fbee191dc58c0e77a672dc22333dbb302"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-006-768.webp",
+      "bytes": 43446,
+      "sha256": "27078d46d8471a6d7f4197c9c9110045bf71f4f0ae0173f57501a21820497aa8"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-007-384.webp",
+      "bytes": 19696,
+      "sha256": "d63927b9eb5ee3f1577eb49db7dbed30cbb158c5bd12f02a2de6f2c317439f36"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-007-768.webp",
+      "bytes": 86084,
+      "sha256": "496be98a8920758e408850adb7e5a2c1a678f3b8bc6da885e03ab3f2c5236a6c"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-008-384.webp",
+      "bytes": 8766,
+      "sha256": "400f8d1c4b868ae6210fa870910fc7483812d1039cdf6fb2b4a5513a67126495"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-008-768.webp",
+      "bytes": 40306,
+      "sha256": "141ec89634237c2859d82b8778cb7b37a2458bf380d063ad7a9f3c5b5e4ad15d"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-009-384.webp",
+      "bytes": 12832,
+      "sha256": "e1b0e0bf5142c855ba21ed09d84367a563a045db273b0e7798da609230c2f5ac"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-009-768.webp",
+      "bytes": 51144,
+      "sha256": "3bff9fac195565d8f0eff2c8613482154077221ad26619a4c1f0e792fa293b34"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-010-384.webp",
+      "bytes": 30512,
+      "sha256": "133b46dddd8f93c60ef95fcfa020625c23fc3c14df252874d6a91c8db6341789"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-010-768.webp",
+      "bytes": 127136,
+      "sha256": "f12aef07cfdf4cd89873054a3138329e2b9f0ef3a95444a1ebdf7a6ef2ead237"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-011-384.webp",
+      "bytes": 40210,
+      "sha256": "f1f8e7d00bdb077248f5a16658ea44c1937e278c14600d33029749c4418f0755"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-011-768.webp",
+      "bytes": 162800,
+      "sha256": "e744d7fb669456203073bf8b8a839fa3f983aa66f775b480bb28dcc41d792253"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-012-384.webp",
+      "bytes": 33702,
+      "sha256": "dec23d5ca64ea4391918a5044d704065c96d83144058f3b1d00a56bac2f97450"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-012-768.webp",
+      "bytes": 128044,
+      "sha256": "df0267bd58a530d856fc83af0d07525f415838881ac17120476d1fcb8f7e0321"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-013-384.webp",
+      "bytes": 36856,
+      "sha256": "24f0ecc3a5faaa9897127139e08a396a77424e94e5422a15114586637664cb4a"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-013-768.webp",
+      "bytes": 143074,
+      "sha256": "1e53181256d28daa996b76dcb0e17560ec44e547a3ed00e9b0ed3325ab5a1b38"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-014-384.webp",
+      "bytes": 36028,
+      "sha256": "782fcdd4d7b7ad14e2691acd8244c9407a6e73272c0d448196710869d6b5efa1"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-014-768.webp",
+      "bytes": 140068,
+      "sha256": "68d0b777c1230e576d6fd849b667793a0603434e1c9c4c9eb2879bff96880a42"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-015-384.webp",
+      "bytes": 37962,
+      "sha256": "7b0f491b77b8469c41df690897e05207bb9668cbc871a6e24c889eff96e01eed"
+    },
+    {
+      "file": "physarum15/game/journey/assets/final/card-015-768.webp",
+      "bytes": 135078,
+      "sha256": "b66b29fded4f5b321d85ec9a488623039a2378f60ee95c21729f5dff9138a4bf"
+    },
+    {
+      "file": "physarum15/game/core/slime-engine.js",
+      "bytes": 58989,
+      "sha256": "403f9dbf2d3961c06c40c86fc61480b00249056c3deb9d58da7b9781416b8571"
+    },
+    {
+      "file": "index.html",
+      "bytes": 792,
+      "sha256": "a1b29f306bcb5001d4ac43e6b533a3a50025616f06f1d6cbfd6a9f5857f73237"
+    },
+    {
+      "file": "README.md",
+      "bytes": 1891,
+      "sha256": "17f0502e53eacc95754766f1c8c659feceaa2d968b3663fdd4eca6c6e104fcbc"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 479,
+      "sha256": "33a62a36cf5b47c6d8b4d6adbb408b2d435b1e27c1f14b68a32d0889425d7d47"
+    }
+  ]
+}

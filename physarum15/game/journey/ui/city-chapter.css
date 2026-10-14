@@ -1,0 +1,24 @@
+.transfer-intro{display:flex;align-items:center;justify-content:space-around;gap:9px;padding:18px 12px;border-bottom:1px solid var(--line);font-size:14px;text-align:center}
+.transfer-intro small{display:block;margin-top:5px;font-size:11px;color:var(--muted)}
+.transfer-intro b{font-weight:normal;color:#967c45}
+.transfer-pair{display:block;margin:0 0 16px}.transfer-pair strong{display:block;margin-bottom:7px}
+.transfer-pair select{width:100%;min-height:46px;padding:8px 5px;border:1px solid #b8b7a8;border-radius:4px;color:var(--ink);background:var(--sheet);font:inherit;font-size:13px}
+.transfer-rule{display:flex;align-items:start;gap:10px;margin:0 0 16px}.transfer-rule input{margin-top:5px;flex:none}
+.transfer-rule small{display:block;margin-top:5px;font-size:12px;line-height:1.6;color:var(--muted)}
+.transfer-issues{padding-left:22px;line-height:1.8;font-size:14px}.transfer-issues li{margin-bottom:10px}
+.transfer-note{border-left:3px solid #9fa988;padding:2px 16px;margin-top:24px;background:#eef0e5}
+.transfer-note h3{font:500 20px var(--serif)}.transfer-note p{font-size:14px;line-height:1.8}
+.city-reference{fill:none;stroke:#9b9380;stroke-width:2;stroke-dasharray:5 8}
+.scene svg .city-reference-note{font-size:16px;fill:#766c55;paint-order:stroke;stroke:#f7f3e9;stroke-width:5px;stroke-linejoin:round}
+.city-no-passage{stroke:#ab755c;stroke-width:4;fill:none}
+.reach-next{fill:#f7f2df;stroke:#8a965f;stroke-width:3;stroke-dasharray:5 3}
+g[data-action="reach-step"]{cursor:pointer}g[data-action="reach-step"]:focus .reach-next{stroke:#374d2e;stroke-width:6}
+.reach-node-code{font-size:16px}
+.reach-person{fill:#b99355;stroke:#f9f4e4;stroke-width:3}.reach-footprints{stroke:#fff9e9;stroke-width:3}
+.scene svg .reach-stage{font-size:17px;fill:#686b56}
+.reach-steps{display:grid;gap:8px;margin:12px 0}.reach-steps button{display:flex;justify-content:space-between;gap:8px}
+.reach-feedback{background:#f0eddd;padding:12px;line-height:1.7;font-size:14px;border-left:3px solid #9c9166}
+.reach-route{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:9px;font-size:13px}
+.reach-route li{padding:7px 9px;background:#eeeee2;border-radius:4px}
+.reach-route li+li:before{content:"→ ";color:#8d794b}
+@media(max-width:600px){.transfer-intro{font-size:11px;gap:5px;padding:12px 7px}.transfer-intro small{font-size:9px}.transfer-pair select{font-size:13px}.reach-route{font-size:12px}.transfer-rule small{font-size:13px}}
